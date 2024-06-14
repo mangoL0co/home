@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ADD8E6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:enabled="false" />
+
+    <EditText
+        android:id="@+id/editTextPW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PW"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextPWConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PW 확인"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextUniversity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="대학교" />
+
+    <EditText
+        android:id="@+id/editTextDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="학과" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저장" />
+</LinearLayout>
